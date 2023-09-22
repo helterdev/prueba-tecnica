@@ -1,3 +1,5 @@
+@use '../abstrac/mixin';
+
 .main{
     padding: 2rem 0;
     &__principal{
@@ -71,4 +73,13 @@
         }
     }
    
+}
+
+@include mixin.desktop{
+    // .main{
+    //     &__principal{
+    //         display: flex;
+    //         flex-direction: row-reverse;
+    //     }
+    // }
 }

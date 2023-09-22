@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+import Info from "./Info";
 import Title_2 from "./Ttile_2";
 
 const Main = () => {
@@ -36,6 +38,7 @@ const Main = () => {
                 </ul>
             </section>
             <Title_2/>
+            {/* <Info/> */}
         </div>
     </main>
 }
